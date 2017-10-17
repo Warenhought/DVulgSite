@@ -1,41 +1,14 @@
-<!DOCTYPE html>
-<!--
- <div style="background-color:Gray;" text-class="container-fluider" >
-            <h3>John Doe</h3>
-            <p align="right">Home
-            Sobre
-            Blog
-            Contato</p>
-        </div>
-        <h1 align="center">Bem-vindo</h1>
-
-    <nav align="center" style="background-color:Gainsboro;">
-      
-      
-        <h1 class="my-4" align="center">Bem vindo</h1>
-        <p class="my-4" align="center">Escrita Aleatória, não preste muita atenção.</p>
-     </nav>
--->
 <html lang="en">
 
   <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
     <title>3 Col Portfolio - Start Bootstrap Template</title>
-    
-
-    <!-- Bootstrap core CSS -->    
+  
+  
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="css/3-col-portfolio.css" rel="stylesheet">
-    
-    <!-- Custom styles for this template -->
     <link href="css/round-about.css" rel="stylesheet">
+
 
   </head>
 
@@ -59,7 +32,7 @@
               <a class="nav-link" href="#">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="blog.php">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contato</a>
@@ -75,21 +48,16 @@
         </div>
         <h1 class="my-4" align="center">Bem Vindo</h1>
     </div>
-
-</body>
-</html>
-</body>
-</html>
     
-     <br/><br/>
-     <div class="row" >
-      <div class="container">
+    <br/><br/>
+    <div class="row" >
+     <div class="container">
       <div class="clearfix visible-xs"></div>
         <h1 class="my-4" >Portfólio</h1>
         <h5 class="my-4" >Frase aleatório, não preste muita atenção.</h5>
         <hr class="my-4">
-      </div>
      </div>
+    </div>
      <div class="container" align="center">
       <div class="row" >
         <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">    
@@ -141,17 +109,23 @@
         <h1 class="my-4">Orçamento</h1>
         <h5 class="my-4">Ficou interessado em meus serviços? Solicite um orçamento, é grátis!</h5>
         <hr class="my-4">
-
-        <p >Nome <sub style="vertical-align: super" class="text-danger" >*</sub></p>
-        <input type="text" name="Nome" size="100"/><br/><br/>
         
-         <p >Email <sub style="vertical-align: super" class="text-danger" >*</sub></p>
-        <input type="text" name="Email" size="100"/><br/><br/>
+        <div class="col-sm-12" >
+            <p >Nome <sub style="vertical-align: super" class="text-danger" >*</sub></p>
+            <input type="text" name="nome" class="form-control"/>
+        </div><br/>
         
-         <p >Informação/Mensagem <sub style="vertical-align: super" class="text-danger" >*</sub></p>
-         <textarea type="text" name="Nome" style="width:730px"> </textarea><br/>
-         
-         <p><input type="checkbox" name="Pressa" value="pressa"> Tem pressa no projeto?</p>
+        <div class="col-sm-12" >
+            <p >Email <sub style="vertical-align: super" class="text-danger" >*</sub></p>
+            <input type="text" name="email" class="form-control"/>
+        </div><br/>
+        
+        <div class="col-sm-12" >
+            <p >Informação/Mensagem <sub style="vertical-align: super" class="text-danger" >*</sub></p>
+            <textarea type="text" name="mensagem" class="form-control"> </textarea><br/>
+        </div>
+        
+         <p><input type="checkbox" name="pressa" value="pressa"> Tem pressa no projeto?</p>
          <a href="#" class="btn btn-primary" style="background-color:#7F00FF">Enviar</a>
     </div>
   </div>
